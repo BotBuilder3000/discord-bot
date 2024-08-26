@@ -1,0 +1,26 @@
+{
+  "name": "botbuilder3000",
+  "version": "0.0.1",
+  "description": "Not Needed",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --version",
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [
+    "Discord"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.1.2",
+    "coloraze": "^1.0.1",
+    "discord.js": "^14.15.3",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^3.0.0-canary.1",
+    "pretty-ms": "^8.0.0",
+    "quick.db": "^9.1.7"
+  }
+}
